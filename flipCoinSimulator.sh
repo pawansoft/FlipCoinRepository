@@ -25,7 +25,7 @@ then
 elif [ $TAIL_COUNT -gt $HEAD_COUNT ]
 then
 	diff=$(($TAIL_COUNT - $HEAD_COUNT))
-	echo "Tail Won by : $diff Pint"
+	echo "Tail Won by : $diff Point"
 else
 	echo "Its Tie"
 
